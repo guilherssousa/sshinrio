@@ -60,7 +60,7 @@ def display_logo():
 
         vertical_padding = (terminal_rows - len(content)) // 2
 
-        print("\n\n")
+        print("\n" * (vertical_padding - 4))
 
         step = 0
         for line in content:
