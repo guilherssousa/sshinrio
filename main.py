@@ -2,7 +2,6 @@
 
 import shutil
 import time
-import webbrowser
 
 import keyboard
 
